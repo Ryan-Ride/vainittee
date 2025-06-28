@@ -1,0 +1,20 @@
+@import url(../universal/color.css);
+#title{
+    background-color: var(--Vblue);
+    background-image: url(../../media/website/index_title.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5rem;
+    height: 30rem;
+}
+h1{
+    text-align: center;
+    color:var(--Vwhite);
+    font-size: 5rem;
+    text-shadow: 0.3rem 0.2rem var(--Vblack);
+}
+
+#ex{
+    background-color: brown;
+    padding: 2rem;
+}

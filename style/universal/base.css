@@ -1,0 +1,61 @@
+@import url(color.css);
+body{
+    margin: 0;
+    padding: 0;
+    background-color:var(--Vwhite);
+}
+iframe{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: none;
+}
+.blocks{
+    margin: auto;
+    padding: 0;
+}
+
+/* ImageBG{
+    
+} */
+
+/*- - - - - header - - - - - */
+header{
+    background-color: var(--Vblack);
+    height: 4rem;
+}
+header ul{
+    background-color: var(--Vblack);
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    
+}
+header li{
+    float: left;
+    color: var(--Vwhite);
+    font-size: 1rem;
+}
+a{
+    display: block;
+    text-align: center;
+    padding: 1rem 1rem;
+    text-decoration: none;
+}
+
+
+/*- - - - - footer - - - - - */
+footer{
+    background-color: var(--Vblack);
+    padding: 3rem 2rem 3rem 2rem;
+}
+footer p{
+    color: var(--Vwhite);
+    text-align: center;
+}
+
+/*- - - - - footer - - - - - */
+#login{
+    background-color: var(--Vblack);
+}
